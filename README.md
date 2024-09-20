@@ -1,5 +1,5 @@
-# Biodiversiteettiprojekti
-kansio on TET-harjoittelun aikana tehtävää biodiversiteettiprojektin osaa varten. Ideana on rakentaa nettisivulla esiintyvä form elementti, johon on annettava vaadittavat tiedot tulosten rekisteröintiä varten.  
-Kansio sisältää:
-- HTML5 dokumentin
-- CSS muotoilu dokumentin HTML dokumentllre
+# 🌿 Biodiversiteettiprojekti
+Tämä projekti on osa TET-harjoittelua, ja sen tarkoituksena on rakentaa nettiformielementti, jonka avulla käyttäjät voivat antaa vaadittavat tiedot tulosten rekisteröintiä varten. Projektin tavoitteena on auttaa keräämään ja rekisteröimään biodiversiteettiin liittyviä tietoja.  
+## 📂 Projektin sisältö
+- index.html HTML5-dokumentti, joka toimii verkkosivun runkona.
+- styles.css – CSS-tiedosto, joka sisältää tyylitiedot HTML-dokumentin ulkoasun parantamiseksi.
