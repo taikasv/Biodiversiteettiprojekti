@@ -8,7 +8,37 @@
     </head>
     <body>
         <form>
-
+            <h1>Biodiversiteettiprojektin havaintojen rekisteröintilomake</h1>
+            <p>Täytä kaikki alla olevat kentät vaadituilla tiedilla</p>
+            <label for="elainluokka">Mihin eläinluokkaan lajisi kuuluu?
+                <select id="elainluokka" name="elainluokka">
+                    <option value="1">Nisäkäkkäät</option>
+                    <option value="2" >Linnut</option>
+                    <option value="3">Kalat</option>
+                    <option value="4">Matelijat</option>
+                    <option value="5">Sammakkoeläimet</option>
+                </select>
+            </label>
+            <label for="laji">Lajisi nimi?
+                <input id="laji" name="laji" type="text"/>
+            </label>
+            <br/>
+            <label for="paivamaara">Annan havainnon päivämäärä (DD/MM/YYYY)
+                <input id="paivamaara" name="paivamaara" type="text"/>
+            </label>
+            <label for="koordinaatit">Koordinaatit
+                <input id="koordinaatit" name="koordinaatit" type="text"/>
+            </label>
+            <br/>
+            <label for="analyysityyppi">Analyysityyppi
+                <input id="analyysityyppi" name="analyysityyppi" type="text"/>
+            </label>
+            <label for="tutkimustulos">Tutkimustulos
+                <input id="tutkimustulos" name="tutkimustulos" type="number"/>
+            </label>
+            <label>
+                <input type="submit" value="Submit"/>
+            </label>
         </form>
     </body>
 </html>
