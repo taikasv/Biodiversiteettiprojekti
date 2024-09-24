@@ -11,18 +11,13 @@ body {
 form {
     width: 60vw;
     max-width: 800px;
-    background-color: gray;
+    background-color: #e8d4c8;
     margin: 5em auto;
+    border-radius: 5%;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
+    border-width: 4px;
     border-color: black;
-    border-radius: 5%;
-}
-
-input, select {
-    display: block;
-    margin: 0.5em auto;
-    width: 45%
 }
 
 label {
@@ -32,21 +27,39 @@ label {
     margin-bottom: 1em;
 }
 
+input, select, textarea {
+    display: block;
+    margin: 0.5em auto;
+    width: 45%;
+    background-color: #ede4df;
+    font-size: 16px;
+}
+
 h1, p {
     text-align: center;
     margin-top: 1em;
 }
 
-br {
-    background-color: black;
+select {
+    min-height: 1.1rem;
+    font-size: 16px;
+    width: 46%;
+    border-color: black;
+    border-width: 2px;
 }
 
-select {
-    min-height: 1.5em;
-    font-size: 14px;
+input[type="date"] {
+    width: 45.5%;
+}
+
+textarea {
+    font-family: Tahoma;
+    border-color: black;
+    border-width: 2px;
 }
 
 input[type="submit"] {
+    width: 46%;
     margin-bottom: 4em;
     height: 2em;
 }
