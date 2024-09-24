@@ -3,3 +3,4 @@ Tämä projekti on osa TET-harjoittelua, ja sen tarkoituksena on rakentaa lomake
 ### 📂 Projektin sisältö
 - index.html - HTML5-dokumentti, joka toimii verkkosivun runkona.
 - styles.css – CSS-tiedosto, joka sisältää tyylitiedot HTML-dokumentin ulkoasun parantamiseksi.
+- images - kansio, jossa verkkosivun tyylittelyyn käytettävät kuvat säilytetään
