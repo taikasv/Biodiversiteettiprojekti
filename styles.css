@@ -16,8 +16,6 @@ form {
     border-radius: 5%;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
-    border-width: 4px;
-    border-color: black;
 }
 
 label {
@@ -62,4 +60,5 @@ input[type="submit"] {
     width: 46%;
     margin-bottom: 4em;
     height: 2em;
+    background-color: #e4c6b4
 }
